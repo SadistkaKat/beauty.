@@ -1,0 +1,369 @@
+
+@import "http://webfonts.ru/import/roboto.css";
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 396px;
+	width:940px;
+	background-image:url(header-img.png);
+	margin:0 auto;
+	padding-top:40px;
+	position:relative;
+}
+/*------МОИ СТИЛИ-----*/
+.layer{
+  display:block;
+  width: 130px;
+  height: 19px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-transform:uppercase;
+  margin-bottom:5px;
+
+}
+.new{
+  width: 330px;
+  height: 18px;
+  font-family: Roboto;
+  font-weight:300;
+  font-size: 14px;
+  line-height: 1.0;
+  color: #000000;
+}
+.soc-seti{
+	display:inline-block;
+	float:right;
+	padding:0 10px;
+	margin-top:-45px;
+}
+.vk-with-circle{
+  display:inline-block;
+  width: 49px;
+  height: 49px;
+  background:url(vk-with-circle.png)no-repeat;
+  margin-right:10px;
+
+}
+.instagram-with-circle{
+	display:inline-block;
+	width: 50px;
+    height: 50px;
+    background:url(instagram-with-circle.png)no-repeat;
+    margin-right:10px;	
+}
+.ok-with-circle{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  background:url(ok-with-circle.png)no-repeat;
+}
+.salon{
+  width: 258px;
+  height: 42px;
+  font-family: Roboto;
+  font-weight:400;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #000000;
+  margin:90px 0px 10px 0px;
+}
+.for{
+	width: 189px;
+  height: 40px;
+  font-family: Roboto;
+   font-weight:300;
+  font-size: 22px;
+  line-height: 0.9;
+  color: #000000;
+}
+.in{
+	width: 250px;
+  height: 88px;
+  font-family: Roboto;
+   font-weight:300;
+  font-size: 38px;
+  color: #e8559d;
+}
+.-online{
+  border-radius: 5px;
+  background-color: #e8559d;
+  position:absolute;
+  top:180px;
+  right:0px;
+  padding:15px 38px;
+}
+.-online a{
+	 width: 164px;
+  height: 19px;
+  font-family: Roboto;
+   font-weight:500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration:none;
+}
+.-online a span{
+	color:#000000;
+}
+.phone{
+  width: 126px;
+  height: 19px;
+  font-family: Roboto;
+   font-weight:200;
+  font-size: 16px;
+  color: #000000;
+  position:absolute;
+  top:240px;
+  right:115px;
+}
+.number{
+  width: 243px;
+  height: 35px;
+  font-family: Roboto;
+   font-weight:300;
+  font-size: 30px;
+  color: #000000;
+   position:absolute;
+  top:265px;
+  right:0;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 349px;
+	width:940px;
+	height:750px;
+	margin:0 auto;
+	position:relative;
+}
+h1{
+	width: 756px;
+  height: 38px;
+  font-family: Roboto;
+   font-weight:300;
+  font-size: 32px;
+  color: #000000;
+  margin:0 93px;
+}
+h1 span{
+	color:#e8559d;
+}
+.round{
+  width: 135px;
+  height: 135px;
+  margin-right:100px;
+  display:inline-block;
+  background-repeat:no-repeat;
+}
+.round-1{
+	background-image:url(round-1.png);
+	margin-left:45px;
+}
+.round-2{
+	background-image:url(round-2.png);
+}
+.round-3{
+	background-image:url(round-3.png);
+}
+.round-4{
+	background-image:url(round-4.png);
+	 margin-right:45px;
+}
+.podpis{
+  display:inline-block;
+  width: 200px;
+  height: 38px;
+  font-family: Roboto;
+   font-weight:300;
+  font-size: 16px;
+  color: #4a4a4a;
+  margin-right:30px;
+  text-align:center;
+   margin-bottom:15px;
+}
+.podpis-1 {
+	margin-left:10px;
+}
+.podpis-3{
+	vertical-align:top;
+	height:19px;
+}
+.podpis-4{
+	margin-right:10px;
+}
+.cena{
+  display:inline-block;
+  width: 200px;
+  height: 24px;
+  font-family: Roboto;
+  font-weight:400;
+  font-size: 20px;
+  color: #e8559d;
+   margin:0 30px 30px 0;
+  text-align:center;
+}
+.cena-1{
+	margin-left:10px;
+}
+.cena-4{
+	margin-right:10px;
+}
+.button{
+  display:inline-block;
+  width: 160px;
+  border-radius:5px;
+  border: solid 1px #e8559d;
+  margin-right:70px;
+  margin-bottom:93px; 
+  text-align:center;
+  padding:10px 0;
+}
+.button-1{
+	margin-left:30px;
+}
+.button-4{
+margin-right:30px;
+}
+.button a{
+  width: 160px;
+  height: 19px;
+  font-family: Roboto;
+  font-weight:200;
+  font-size: 16px;
+  color: #e8559d;
+  text-decoration:none;
+}
+h2{
+  width: 223px;
+  height: 35px;
+  font-family: Roboto;
+  font-weight:300;
+  font-size: 30px;
+  color: #000000;
+  margin:0 auto;
+}
+.icon-1{
+  position:absolute;
+  top:482px;
+  left:120px;
+  width: 20px;
+  height: 30px;
+  background-image:url(map.png);
+}
+.adress-1{
+  position:absolute;
+  top:482px;
+  left:140px;
+  width: 175px;
+  height: 80px;
+  font-family: Roboto;
+  font-weight:300;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #4a4a4a;
+  text-align:left;
+  margin-left:25px;
+}
+.icon-2{
+  position:absolute;
+  top:482px;
+  left:360px;
+  width: 20px;
+  height: 30px;
+  background-image:url(map.png);
+  margin-left:120px;
+}
+.adress-2{
+  position:absolute;
+  top:482px;
+  left:530px;
+  width: 300px;
+  height: 72px;
+  font-family: Roboto;
+  font-weight:300;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #4a4a4a;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 100%;
+	margin: -349px auto 0;
+	height: 349px;
+	background: #BFF08E;
+	position: relative;
+}
